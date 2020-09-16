@@ -68,8 +68,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BoilerPlateWebSocketDramatiq.wsgi.application'
-
+# WSGI_APPLICATION = 'BoilerPlateWebSocketDramatiq.wsgi.application'
+ASGI_APPLICATION = 'BoilerPlateWebSocketDramatiq.routing.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
